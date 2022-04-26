@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.bpLogo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER STYLES */
+header {
+  background-color: green;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  position: sticky;
+}
+
+header ul li,
+header ul li a {
+  list-style: none;
+  color: white;
+  padding: 0px 15px;
+  font-size: 18px;
+}
+
+header ul li a:hover {
+  color: rgb(173, 250, 49);
+}
+
+header ul {
+  display: flex;
+  padding: 0px 20px;
+}
+
+/* WELCOME MESSAGE STYLES */
+#welcomeMessage {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 20px;
+}
+
+#content h1,
+#content h3,
+#content > p {
+  text-align: center;
+}
+
+#subjects {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  margin: 0 auto;
+}

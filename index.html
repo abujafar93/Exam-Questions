@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Questions</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+  <div id="plate">
+  
+    <div class="cup">
+    
+      <div class="container" id="cont">
+        
+        <div class="signUp">
+          <form>
+            <div class="image">
+              <img src="BP.jpg">
+              <h1>Best Plug Farms Examination</h1>
+            </div>
+            <h2>Sign Up</h2>
+            <h4>Put in Your Correct Details</h4>
+            <label for="fName">First Name</label>
+            <input type="text" class="input-box" placeholder="">
+            <label for="lName">Last Name</label>
+            <input type="text" class="input-box" placeholder="">
+            <label for="email">Email</label>
+            <input type="email" class="input-box" placeholder="">
+            <label for="username">Username</label>
+            <input type="text" class="input-box" placeholder="">
+            <label for="password1">Password</label>
+            <input type="password" class="input-box" placeholder="">
+            <label for="password2">Confirm Password</label>
+            <input type="password" class="input-box" placeholder="">
+            <button id="subBtn" onclick="openSignIn()">Submit</button>
+            <p>By clicking this submit, you have agreed to our <br>
+            <a href="#">Terms and conditions</a> and <a href="#">Privacy Policy</a>
+            </p>
+          </form>
+          <p>Already have an account, Sign In <a href="#" onclick="openSignIn()">here</a></p>
+        </div>
+
+        <div class="signIn">
+          <form>
+            <div class="image">
+              <img src="BP.jpg">
+              <h1>Best Plug Plug Farms Examination</h1>
+            </div>
+            <h2>Sign In</h2>
+            <h4>Put in Your Correct Details</h4>
+            <label for="email" class="signInLabel">Email</label>
+            <input type="email" class="input-box" placeholder="" required>
+            <label for="password" class="signInLabel">Password</label>
+            <input type="password" class="input-box" placeholder="" required>
+            <input type="checkbox" id="check-box"><span>Remember Me</span>
+            <input type="button" class="input-box" value="Sign In" id="signBtn">
+          </form>
+          <h6><a href="#">Forgot Password?</a></h6>
+          <p>You don't have an account, Sign Up <a href="#" onclick="openSignUp()">here</a></p>
+        </div>
+
+      </div>
+    
+    </div>
+  
+  </div>
+
+
+  <script src="question.js"></script>
+
+
+</body>
+
+
+</html>
